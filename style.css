@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body {
+  background-image: url(https://d2zu0x2vczriu3.cloudfront.net/Dinosaurs_In_Love_Tom_Rosenthal_h264.00_00_10_19.Still002.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Agbalumo", Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.countdown {
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:15px;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.time h2{
+  font-size: 36px;
+  margin: 0 0 5px;
+}
+
+@media(max-width: 500px) {
+  h1{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .time{
+    margin: 5px;
+  }
+  .time h2{
+    font-size: 12px;
+  }
+  .time small{
+    font-size: 8px;
+  }
+}
